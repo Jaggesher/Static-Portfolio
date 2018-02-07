@@ -1,97 +1,201 @@
-body {
-    font: 20px Montserrat, sans-serif;
-    line-height: 1.8;
-    color: #f5f6f7;
-}
-
-.margin {
-    margin-bottom: 45px;
-}
-
-.bg-1 {
-    background-color: #1abc9c;
-    /* Green */
-    color: #ffffff;
-    height: 100vh;
-}
-
-.container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-
-.navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
-}
-
-.navbar-nav li a:hover {
-    color: #1abc9c !important;
-}
-
-
-/* First Body section */
-
-.bg-1 {
-    background-color: #1abc9c;
-    /* Green */
-    /* background: url("1.JPG") no-repeat center; */
-    color: #ffffff;
-    height: 88vh;
-}
-
-.cls1 {
-    border-right: 5px dotted white;
-    text-align: right;
-    padding-right: 35px;
-}
-
-.cls2 {
-    text-align: left;
-    padding-left: 35px;
-    padding-top: 20px;
-}
-
-.cls3 {
-    width: 100%;
-    margin-bottom: 45px;
-}
-
-.fa {
-    padding: 12px;
-    font-size: 25px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 30px;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-google {
-    background: #dd4b39;
-    color: white;
-}
-
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
+        body {
+            font: 20px Montserrat, sans-serif;
+            line-height: 1.8;
+            color: #f5f6f7;
+        }
+        
+        .margin {
+            margin-bottom: 45px;
+        }
+        
+        .bg-1 {
+            background-color: #1abc9c;
+            /* Green */
+            color: #ffffff;
+            height: 100vh;
+        }
+        
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
+        
+        .navbar-nav li a:hover {
+            color: #1abc9c !important;
+        }
+        /* First Body section */
+        
+        .bg-1 {
+            background-color: #1abc9c;
+            /* Green */
+            /* background: url("1.JPG") no-repeat center; */
+            color: #ffffff;
+            height: 88vh;
+        }
+        
+        .cls1 {
+            border-right: 5px dotted white;
+            text-align: right;
+            padding-right: 35px;
+        }
+        
+        .cls2 {
+            text-align: left;
+            padding-left: 35px;
+            padding-top: 20px;
+        }
+        
+        .cls3 {
+            width: 100%;
+            margin-bottom: 45px;
+            font-size: 30px;
+        }
+        
+        .fa {
+            padding: 12px;
+            font-size: 25px;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 30px;
+        }
+        
+        .fa:hover {
+            opacity: 0.7;
+        }
+        
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+        
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+        
+        .fa-google {
+            background: #dd4b39;
+            color: white;
+        }
+        
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+        /* Second Section */
+        
+        .bg-2 {
+            background-color: #474e5d;
+            /* Dark Blue */
+            color: #ffffff;
+        }
+        /* Third Section */
+        
+        .bg-3 {
+            background-color: #9fb1c4;
+            /* White */
+            color: #555555;
+        }
+        
+        .cls-4 {
+            border: 1px solid #555555;
+            /* color: #4a4848; */
+            color: blue;
+            letter-spacing: 1px;
+        }
+        /* Fourth Section  */
+        
+        .bg-4 {
+            background-color: #f6f6f6;
+            /* White */
+            color: #333334;
+        }
+        
+        .thumbnail {
+            padding: 0 0 15px 0;
+            border: none;
+            border-radius: 0;
+        }
+        
+        .thumbnail img {
+            width: 100%;
+            height: 100%;
+            margin-bottom: 10px;
+        }
+        /* Fifth */
+        
+        .bg-5 {
+            background-color: rgb(156, 197, 215);
+            /* White */
+            color: #333334;
+        }
+        /* Footer */
+        
+        footer {
+            background-color: #2f2f2f;
+            /* Black Gray */
+            color: #fff;
+        }
+        
+        .slideanim {
+            visibility: hidden;
+        }
+        
+        .slide {
+            animation-name: slide;
+            -webkit-animation-name: slide;
+            animation-duration: 1s;
+            -webkit-animation-duration: 1s;
+            visibility: visible;
+        }
+        
+        @keyframes slide {
+            0% {
+                opacity: 0;
+                transform: translateY(70%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0%);
+            }
+        }
+        
+        @-webkit-keyframes slide {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(70%);
+            }
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0%);
+            }
+        }
+        
+        @media screen and (max-width: 768px) {
+            .col-sm-4 {
+                text-align: center;
+                margin: 25px 0;
+            }
+            .btn-lg {
+                width: 100%;
+                margin-bottom: 35px;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            .logo {
+                font-size: 150px;
+            }
+        }

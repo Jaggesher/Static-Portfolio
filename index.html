@@ -15,8 +15,10 @@
     <script src="js/index.js"></script>
 </head>
 
-<body>
-    <nav class="navbar navbar-default">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <br>
+    <br>
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -24,15 +26,14 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>                        
                     </button>
-                <a class="navbar-brand" href="#">Me</a>
+                <a class="navbar-brand" href="#myPage">ME</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">ACADEMIC-INFO</a></li>
-                    <li><a href="#">INTERESTS</a></li>
-                    <li><a href="#">ALBUM</a></li>
-                    <li><a href="#">LINKS</a></li>
-                    <li><a href="#">CONTRACT</a></li>
+                    <li><a href="#ACADEMIC-INFO">ACADEMIC-INFO</a></li>
+                    <li><a href="#INTERESTS">INTERESTS</a></li>
+                    <li><a href="#ALBUM">ALBUM</a></li>
+                    <li><a href="#CONTRACT">CONTRACT</a></li>
                 </ul>
             </div>
         </div>
@@ -62,7 +63,145 @@
     </div>
     <!-- First Section Complete -->
 
+    <!-- Second Secton -->
+    <div id="ACADEMIC-INFO" class="container-fluid bg-2 text-center">
+        <h3 class="cls3">Academic Information.</h3>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th style="text-align: center;">Level Of Degree</th>
+                        <th style="text-align: center;">Institution </th>
+                        <th style="text-align: center;">Passing Year</th>
+                        <th style="text-align: center;">GPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SSC</td>
+                        <td>B.A.K High School</td>
+                        <td>2011</td>
+                        <td>4.5/5</td>
+                    </tr>
+                    <tr>
+                        <td>HSC</td>
+                        <td>Khulna Model School & College</td>
+                        <td>2013</td>
+                        <td>4.9/5</td>
+                    </tr>
+                    <tr>
+                        <td>B.Sc(Eng)</td>
+                        <td>University Of Rajshahi</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <!-- Second Section End -->
+
+    <!-- Third Section  -->
+    <div id="INTERESTS" class="container-fluid bg-3 text-center">
+        <h3 class="cls3"><b>My Interests</b></h3>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 slideanim">
+            <div class="col-sm-4">
+                <div class="cls-4">
+                    <h3 style="color:rgb(57, 81, 134);"><strong>PROGRAMMING</strong></h3>
+                    <img src="image/int-pro.png" class="img-responsive" style="width:100%" alt="Image">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="cls-4">
+                    <h3><strong>TRAVELLING</strong></h3>
+                    <img src="image/int-tra.jpg" class="img-responsive " style="width:100%" alt="Image">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="cls-4">
+                    <h3 style="color: rgb(191,53,69);"><strong>PHOTOGRAPHY</strong></h3>
+                    <img src="image/int-photo.jpg" class="img-responsive" style="width:100%" alt="Image">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2"></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <!-- Third Section End -->
+
+    <!-- Fourth Section  -->
+    <div id="ALBUM" class="container-fluid bg-4 text-center">
+        <h3 class="cls3"><b>My Photo Album</b></h3>
+        <div class="row text-center slideanim">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="image/G-1.JPG" alt="Cox's-Bazar" width="400" height="300">
+                    <p><strong>Cox's-Bazar</strong></p>
+                    <p>Excursion-2018, Palindrome-22</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="image/G-2.JPG" alt="New York" width="400" height="300">
+                    <p><strong>Cox's-Bazar</strong></p>
+                    <p>Excursion-2018, Palindrome-22</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="image/G-3.JPG" alt="San Francisco" width="400" height="300">
+                    <p><strong>Cox's-Bazar</strong></p>
+                    <p>Excursion-2018, Palindrome-22</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="CONTRACT" class="container-fluid bg-5 text-center">
+        <h3 class="cls3"><b>Contract Me</b></h3>
+        <div class="row">
+            <div class="col-sm-5" style="text-align: left; font-size: 16px;">
+                <p>Contact me and i'll get back to you as soon as possible.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Rajshhai, Bangladesh</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +8801915770274</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> jaggesher14@gmail.com</p>
+            </div>
+            <div class="col-sm-7 slideanim">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="container-fluid text-center">
+        <a class="up-arrow" href="#myPage">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a><br><br>
+        <p>Design By Jaggesher Mondal, Dept Of CSE, RU.</p>
+    </footer>
 
 </body>
 
-</html>
+</html
